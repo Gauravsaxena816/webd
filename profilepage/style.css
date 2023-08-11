@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #e4d9d981;
+    /* background-color: black; */
+    gap: 40px;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* background-color: azure; */
+    /* border: 2px solid white; */
+    border-radius: 12px;
+    height: 33px;
+    width: 99vw;
+    gap: 10px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 3px;
+    padding-bottom: 3px;
+}
+a{
+    text-decoration: none;
+    font:20px poppins,sans-serif;
+    font-size: large;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.profilecard{
+    margin-left: 30px;
+    background-color: azure;
+    height: 700px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0.5px 0.5px 15px black;
+}
+.image img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-self: center;
+}
+.info{
+    padding: 20px;
+    font-size: 1.9rem;
+}

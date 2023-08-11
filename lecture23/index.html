@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            height : 100vh;
+            width: 100vw;
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+        }
+        .box{
+            width: 350px;
+            height: 80px;
+            background-color: lightblue;
+            border-radius: 10px;
+            border : 2px solid violet;
+            margin: 10px;
+            animation-name: rightMovement;
+            position: relative;
+            animation-duration: 5s;
+            animation-iteration-count: infinite; 
+            /* animation-delay: 1s; */
+            /* animation-timing-function: cubic-bezier(1,-0.4,1,1); */
+            /* animation-direction: alternate; */
+            /* animation-fill-mode: both;
+
+            
+            /* @keyframes duration | easing function | delay | iteration count | direction | fill mode | play state | name  */
+            /* animation: 5s linear 1s infinite alternate none running rightMovement; */
+            /* animation: rightMovement 5s linear 1s infinite alternate none; */
+        }
+        @keyframes rightMovement {
+            from{
+                top:0;
+                left:0;
+            }
+
+            to{
+                top:0;
+                left: 1350px;
+            }
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border: 3px solid yellowgreen;
+            border-radius: 100px;
+            margin: 10px;
+            position: relative;
+            top: 340px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"> </div>
+        <div class="circle"></div>
+    </div>
+</body>
+</html>

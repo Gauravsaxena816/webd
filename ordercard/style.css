@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    overflow-x: none;
+}
+
+.card{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px black;
+    gap: 15px;
+}
+.card p{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.charges{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: #a3d2ed;
+    background-image: linear-gradient(160deg, #a3d2ed 0%, #96ded6 100%);
+    border-radius: 15px;
+    
+}
+.charges p{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.charges img{
+    padding: 4.4px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}
+.charges a{
+    font-size: 1.2rem;
+    padding-top: 15px;
+    margin-right: 13px;
+    color: darkblue;
+}
+
+button{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    color: white;
+    background-color: #50407f;
+    background-image: linear-gradient(160deg, #50407f 0%, #2d2d67 100%);
+    border-radius: 15px;
+    /* box-shadow: 0.5px 0.5px 10px black; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    /* transform: scale(1.2);
+    transition: all 0.3s linear 0s; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) ;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+.image img{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
