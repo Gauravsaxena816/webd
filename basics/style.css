@@ -1,0 +1,18 @@
+#apple {
+    color: green;
+    font: 100;
+    font-family: cursive;
+    font-weight: 1000;
+    /* line-height: 90px; */
+}
+
+section{
+    color: rgb(20, 18, 15);
+    font: 100;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    background-color: rgb(88, 22, 100);
+    background-color: #ffffff;
+}
+
+/* display property */
